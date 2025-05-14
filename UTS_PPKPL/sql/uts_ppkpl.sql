@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS uts_ppkpl;
+USE uts_ppkpl;
+
+CREATE TABLE IF NOT EXISTS articles (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL
+);
